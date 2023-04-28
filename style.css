@@ -1,146 +1,97 @@
 body {
+  font-size: 18px;
+  color: aliceblue;
   background: rgb(41, 106, 111);
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+  list-style-type: none;
 }
 .header {
-  text-align: center;
-  font-size: 32px;
-  color: aliceblue;
-  margin-left: 5%;
+  font-size: 50px;
 }
 .nav {
   display: grid;
-  grid-template-columns: 35px 50px 70px 105px 50px;
+  grid-template-columns: 50px 50px 50px 50px 50px;
   justify-content: space-around;
-  column-gap: 100px;
-  margin-left: 28%;
-  margin-right: 23%;
-  border: 10px solid aliceblue;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: aliceblue;
   padding: 30px;
-  color: aliceblue;
 }
 .nav:hover {
-  background-color: rgba(44, 5, 14, 0.441);
+  background-color: rgb(152, 184, 187);
 }
 .hover-over:hover {
-  background-color: rgb(41, 106, 111);
+  background-color: rgba(20, 138, 147, 0.322);
 }
 #about {
-  color: aliceblue;
-  text-align: left;
-  margin-left: 48%;
-  margin-top: 4%;
-  padding: 10px;
-  max-width: 1000px;
+  text-align: center;
+  padding: 20px;
 }
 #selfie {
   margin-left: 19%;
-  margin-right: 40%;
+  margin-right: 30%;
+  max-width: 500px;
 }
 .me {
   display: grid;
-  grid-template-columns: 200px 190px 230px;
+  grid-template-columns: 140px 150px 200px;
   grid-template-rows: 50px 50px;
-  color: aliceblue;
-  text-align: center;
-  margin-left: 34%;
-  margin-top: 0%;
-  max-width: 1000px;
-  list-style-type: none;
+  justify-content: space-around;
+  margin-left: 33%;
+  margin-right: 34%;
 }
 .info {
-  display: grid;
-  color: aliceblue;
-  text-align: center;
-  margin-left: 48%;
-  margin-top: 0%;
-  padding: 0px;
-  max-width: 170px;
+  margin-left: 45%;
+  margin-right: 45%;
 }
 img {
-  border: 15px solid aliceblue;
-  border-radius: 2px;
-  padding: 20px;
+  border: solid 10px;
+  padding: 15px;
   width: 200px;
-  margin-left: 59%;
-  margin-top: 40px;
-  max-width: 1000px;
+  height: 325px;
+  margin-left: 31%;
 }
 .bio {
   display: grid;
   grid-template-rows: 1px;
-  text-align: center;
-  color: aliceblue;
-  max-width: 1000px;
 }
 .stats {
   display: grid;
-  text-align: left;
-  grid-template-columns: 200px;
-  margin-left: 90%;
+  grid-template-rows: 25px 25px 25px;
+  font-size: 20px;
+  margin-left: 23.5%;
+  margin-right: 25%;
+}
+#links {
+  display: grid;
+  grid-template-rows: 10px;
+  margin-left: 23.5%;
   max-width: 1000px;
 }
 .links {
-  color: aliceblue;
-  display: flexbox;
-
-  margin-left: 49.5%;
-  max-width: 100px;
-}
-#links {
-  border: solid 2px;
+  font-size: 18px;
   display: grid;
-  color: aliceblue;
-  text-align: center;
-  margin-left: 50%;
-  padding: 0px;
-  max-width: 80px;
+  grid-template-rows: 25px 30px 25px;
+  margin-left: 38%;
+  max-width: 450px;
 }
 .skills {
-  border: solid 2px;
   display: grid;
-  color: aliceblue;
-  text-align: center;
-  margin-left: 50%;
-  max-width: 80px;
-  padding: 0px;
+  grid-template-rows: 20px;
+  margin-left: 47.5%;
+  max-width: 100px;
 }
 .skills-1 {
-  color: aliceblue;
-  text-align: left;
-  margin-left: 50%;
-  margin-right: 0%;
-  max-width: 0px;
-}
-.contact-info {
-  border: solid 2px;
-  color: aliceblue;
-  text-align: center;
-  margin-left: 47.8%;
-  max-width: 160px;
-  padding: 0px;
+  display: grid;
+  grid-template-rows: 10px 10px 10px;
+  margin-right: 2%;
 }
 .contact {
   display: grid;
-  color: aliceblue;
-  text-align: center;
-  margin-left: 23.5%;
+  grid-template-rows: 20px;
+  margin-left: 22%;
   margin-right: 20%;
   max-width: 1000px;
-  padding: 0px;
-}
-.created {
-  text-align: center;
-  margin-top: 2%;
-  margin-left: 7%;
-  margin-bottom: 1%;
-  padding: 0%;
-  max-width: 1600px;
-}
-.footer {
-  text-align: center;
-  display: grid;
-  margin-left: 49%;
-  max-width: 100px;
 }
